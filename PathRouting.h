@@ -19,7 +19,7 @@ struct Node {
     int** totalRoutingTable;
 };
 
-void updateVector(struct Node *sourceNode, struct Node *targetNode, int nodeArrayLength, int sourceNodeIndex,
+int updateVector(struct Node *sourceNode, struct Node *targetNode, int nodeArrayLength, int sourceNodeIndex,
                   int targetNodeIndex);
 
 #endif //PATHROUTING_PATHROUTING_H
